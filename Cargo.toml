@@ -1,0 +1,15 @@
+[package]
+name = "futures-ratelimit"
+version = "0.1.0"
+authors = ["Matt Bilker <me@mbilker.us>"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/mbilker/futures-ratelimit"
+homepage = "https://github.com/mbilker/futures-ratelimit"
+description = """
+Ratelimiting of futures
+"""
+
+[dependencies]
+futures = "0.1"
+ratelimit = "0.4"
